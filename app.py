@@ -14,8 +14,29 @@ print("Elements from 1 to 3:", array[1:3])
 
 # Slicing
 my_list = [1, 2, 3, 4, 5, ]
-print("Liat:", my_list)
+print("List:", my_list)
 
 # Append an element
 my_list.append(6)
+print("List after append:", my_list)
 
+# Insert an element at a specific position
+my_list.insert(2, 7)
+print("List after insert:", my_list)
+
+# Remove an element
+my_list.remove(4)
+print("List after remove:", my_list)
+
+# Tuples
+my_tuple = (1, 2, 3, 4, 5)
+print("Tuple:", my_tuple)
+
+# Accessing elements (same as lists)
+print("First element:", my_tuple[0])
+print("Last element:", my_tuple[-1])
+
+# Loops
+# For loop
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
