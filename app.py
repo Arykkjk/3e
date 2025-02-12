@@ -40,3 +40,15 @@ print("Last element:", my_tuple[-1])
 # For loop
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
+    print(fruit)
+
+# While loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+# Looping over a list with indices
+my_list = [1, 2, 3, 4, 5]
+for i, element in enumerate(my_list):
+    print(f"Index {i}: {element}")
